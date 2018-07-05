@@ -1,0 +1,27 @@
+AllCops:
+  TargetRubyVersion: 2.2
+  Exclude:
+    - '*.gemspec'
+    - 'Gemfile*'
+    - 'bin/**/*'
+    - 'test/**/*'
+    - 'lib/tasks/*'
+    - 'vendor/**/*'
+
+Documentation:
+  Enabled: false
+
+Metrics:
+  Enabled: false
+
+Style:
+  Enabled: false
+
+Layout:
+  Enabled: false
+
+Performance/Casecmp:
+  Enabled: false
+
+Naming:
+  Enabled: false
