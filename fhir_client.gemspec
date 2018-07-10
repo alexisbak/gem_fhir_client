@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fhir_client/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fhir_client'
+  spec.name          = 'akido_fhir_client'
   spec.version       = FHIR::Client::VERSION
   spec.authors       = ['Andre Quina', 'Jason Walonoski', 'Janoo Fernandes']
   spec.email         = ['jwalonoski@mitre.org']
